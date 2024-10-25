@@ -10,14 +10,11 @@
     <div class="title">
         <h1>WORD COUNTER</h1>
         <P>type or  paste text in the box below to check or count your words (drag to increase box)</P>
-
+        <textarea  id="charact"  value="" onkeyup="checkwords()" rows="20" cols="100"></textarea>
+        <p><code id="num">0</code>words</p>
     </div>
-    <textarea  id="charact"  value="" onkeyup="checkwords()" rows="20" cols="100"></textarea>
-    <p><code id="num">0</code>words</p>
-
 
     <script>
-        var namee = 'joshua'
         console.log(namee.length)
         console.log(namee.indexOf('o'));
         console.log(namee.charAt(4));
